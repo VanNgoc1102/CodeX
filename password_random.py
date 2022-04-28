@@ -1,6 +1,9 @@
 #project :random password generator
-#5
-#password: 12-jk
+'''
+input :5
+output: 12-jk
+'''
+
 import string
 import random
 letters=string.ascii_letters
