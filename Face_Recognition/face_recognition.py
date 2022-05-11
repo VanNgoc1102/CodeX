@@ -17,7 +17,7 @@ for face in faces:
     y2=face.bottom()
     #draw a rectangle
     cv2.rectangle(img=img,pt1=(x1,y1),pt2=(x2,y2), color=(0,255,0),thickness=3)
-    break
+    #break
 #print(len(faces))
 #show the image
 cv2.imshow(winname="Face recoginition App ", mat=img)
